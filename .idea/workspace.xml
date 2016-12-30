@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ed1e986-9e29-4aea-a7e9-b885c6be12ed" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html" afterPath="$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html" afterPath="$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,21 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MAKET_TABLE.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MAKET_TABLE.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2079">
-              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MAKET_DIV.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="89" column="6" lean-forward="true" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+            <state relative-caret-position="561">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -57,8 +47,8 @@
       <file leaf-file-name="MAKET_DIV.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HomeWork/HW_7/MAKET_DIV.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-581">
-              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="825">
+              <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -114,8 +104,8 @@
         <option value="$PROJECT_DIR$/ClassWork/Lesson 8/1.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_7/MAKET_DIV.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson 9/CHESS.html" />
-        <option value="$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html" />
+        <option value="$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html" />
       </list>
     </option>
   </component>
@@ -314,7 +304,7 @@
       <workItem from="1483076573343" duration="264000" />
       <workItem from="1483079949132" duration="3821000" />
       <workItem from="1483083957092" duration="7618000" />
-      <workItem from="1483112020980" duration="335000" />
+      <workItem from="1483112020980" duration="1659000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1482735922566</created>
@@ -484,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483103993953</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="2016-12-30">
+      <created>1483112361383</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1483112361383</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44259000" />
+    <option name="totallyTimeSpent" value="45583000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,18 +877,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html">
+    <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="1036">
+          <caret line="87" column="10" lean-forward="true" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeWork/HW_7/MAKET_DIV.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-581">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="825">
+          <caret line="25" column="3" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -907,10 +904,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html">
+    <entry file="file://$PROJECT_DIR$/HomeWork/HW_7/MAKET_TABLE.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="89" column="6" lean-forward="true" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+        <state relative-caret-position="561">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
