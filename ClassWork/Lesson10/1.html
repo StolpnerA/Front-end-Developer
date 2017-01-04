@@ -5,9 +5,19 @@
     <TITLE>Ссылки. Оформление</TITLE>
     <style type="text/css">
         p {
+            float: left;
+            width: 30%;
             padding: 8px;
+            margin-left: 10px;
             border: solid 1px grey;
             border-radius: 0px 20px 0px 20px;
+        }
+        h3, ul {
+            clear: left;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            list-style-image: url("logo-list.jpg");
         }
         a[href^="https://"] {
             background: url("extref.png") left center no-repeat;
@@ -27,9 +37,6 @@
         li a[href$=".zip"]:hover{
             background: url("logo-zip.gif") right center no-repeat;
             padding-right: 18px;
-        }
-        ul {
-            list-style-image: url("logo-list.jpg");
         }
     </style>
 </HEAD>
