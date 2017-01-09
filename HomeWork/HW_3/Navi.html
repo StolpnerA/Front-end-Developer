@@ -3,27 +3,6 @@
 <head>
     <meta charset=UTF-8>
     <title>Navigator for Stolpner</title>
-    <style>
-        ul ul {
-            counter-reset: task1;
-        }
-        ul ul li>em::before {
-            counter-increment: task1;
-            content: 'Задание ' counter(task1) '.';
-        }
-        ul {
-            counter-reset: topic;
-            /*counter-reset: date;*/
-        }
-        /*ul li>b::before {
-            counter-increment: date+2;
-            content: '2016.12.' counter(date) ' ';
-        }*/
-        ul li>span::before {
-            counter-increment: topic;
-            content: 'Тема ' counter(topic) '.';
-        }
-    </style>
 </head>
 <body>
 <h1>Навигация по проектам</h1>
@@ -33,63 +12,63 @@
 <hr>
 <div style="font-size: 22px">
     <ul>
-        <li><b>2016.12.12</b> <span style="text-decoration: underline"> Введение в HTML. Ссылки</span>
+        <li><b>2016.12.12</b> <span style="text-decoration: underline">Тема 1. Введение в HTML. Ссылки</span>
             <ol style="list-style-type: circle">
                 <li>Задание очных занятий
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task1.html" target=_blank>№1.</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task2.html" target=_blank>№2.</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task3.html" target=_blank>№3.</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task4.html" target=_blank>№4.</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task5.html" target=_blank>№5.</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020441/Task1.html" target=_blank>№1.</a></li>
+                        <li><em>Задание 2.</em><a href="http://fe.it-academy.by/Sites/0020441/Task2.html" target=_blank>№2.</a></li>
+                        <li><em>Задание 3.</em><a href="http://fe.it-academy.by/Sites/0020441/Task3.html" target=_blank>№3.</a></li>
+                        <li><em>Задание 4.</em><a href="http://fe.it-academy.by/Sites/0020441/Task4.html" target=_blank>№4.</a></li>
+                        <li><em>Задание 5.</em><a href="http://fe.it-academy.by/Sites/0020441/Task5.html" target=_blank>№5.</a></li>
                     </ul>
                 </li>
                 <li>Домашние задания
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020445/Task1a.html" target=_blank>ДЗ №1а. Проект DIARY</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020446/vizbor.html" target=_blank>ДЗ №1b. Проект VIZSBOR</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020445/Task1a.html" target=_blank>ДЗ №1а. Проект DIARY</a></li>
+                        <li><em>Задание 2.</em><a href="http://fe.it-academy.by/Sites/0020446/vizbor.html" target=_blank>ДЗ №1b. Проект VIZSBOR</a></li>
                     </ul>
                 </li>
             </ol>
         </li>
 
-        <li><b>2016.12.14</b> <span style="text-decoration: underline">Изображения. Введение в CSS</span>
+        <li><b>2016.12.14</b> <span style="text-decoration: underline">Тема 2. Изображения. Введение в CSS</span>
             <ol style="list-style-type: circle">
                 <li>Домашние задания
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020502/HW.html" target=_blank>ДЗ №2. Проект CHILDBOOK</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020502/HW.html" target=_blank>ДЗ №2. Проект CHILDBOOK</a></li>
                     </ul>
                 </li>
             </ol>
         </li>
 
-        <li><b>2016.12.16</b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+        <li><b>2016.12.16</b> <span style="text-decoration: underline">Тема 3. Цвет. Шрифт. Границы. Размеры</span>
             <ol style="list-style-type: circle">
                 <li>Задание очных занятий
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
                     </ul>
                 </li>
                 <li>Домашние задания
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020448/Article.html" target=_blank>ДЗ №3a. Проект Article</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020448/Navigator.html" target=_blank>ДЗ №3b. Проект Navigator</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020448/Article.html" target=_blank>ДЗ №3a. Проект Article</a></li>
+                        <li><em>Задание 2.</em><a href="http://fe.it-academy.by/Sites/0020448/Navigator.html" target=_blank>ДЗ №3b. Проект Navigator</a></li>
                     </ul>
                 </li>
             </ol>
         </li>
 
-        <li><b>2016.12.19</b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+        <li><b>2016.12.19</b> <span style="text-decoration: underline">Тема 3. Цвет. Шрифт. Границы. Размеры</span>
             <ol style="list-style-type: circle">
                 <li>Задание очных занятий
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/Letter.html" target=_blank>№2. Проект: Letter</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020398/Letter.html" target=_blank>№2. Проект: Letter</a></li>
                     </ul>
                 </li>
                 <li>Домашние задания
                     <ul style="list-style-type: square">
-                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020520/GoogleFont.html" target=_blank>ДЗ №3. Проект FONT_GWF</a></li>
+                        <li><em>Задание 1.</em><a href="http://fe.it-academy.by/Sites/0020520/GoogleFont.html" target=_blank>ДЗ №3. Проект FONT_GWF</a></li>
                     </ul>
                 </li>
             </ol>
