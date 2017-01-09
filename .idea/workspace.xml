@@ -26,8 +26,23 @@
       <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ClassWork/Lesson12/1.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="79">
               <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+=======
+            <state relative-caret-position="391">
+              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClassWork/Lesson11/2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -91,10 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="3226" />
-    <option name="height" value="1746" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -111,7 +126,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
       <pane id="Scope" />
+=======
+>>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,15 +198,23 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< Updated upstream
+=======
+      <pane id="Scope" />
+>>>>>>> Stashed changes
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PortableGit/bin/git.exe" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< Updated upstream
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> Stashed changes
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -299,11 +325,16 @@
       <workItem from="1483083957092" duration="7618000" />
       <workItem from="1483112020980" duration="1837000" />
       <workItem from="1483512222357" duration="7549000" />
+<<<<<<< Updated upstream
       <workItem from="1483684677823" duration="5535000" />
       <workItem from="1483742445568" duration="35000" />
       <workItem from="1483807125705" duration="651000" />
       <workItem from="1483944264439" duration="7796000" />
       <workItem from="1483963136379" duration="860000" />
+=======
+      <workItem from="1483684677823" duration="4636000" />
+      <workItem from="1483963526270" duration="594000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1482735922566</created>
@@ -568,7 +599,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="68187000" />
+=======
+    <option name="totallyTimeSpent" value="58540000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,10 +615,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
+<<<<<<< Updated upstream
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14638783" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> Stashed changes
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.49872774" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.50127226" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.49745548" order="7" side_tool="false" content_ui="tabs" />
@@ -945,6 +984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="25" />
+<<<<<<< Updated upstream
         </state>
       </provider>
     </entry>
@@ -952,18 +992,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/Lesson11/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
+        <state relative-caret-position="391">
           <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/Lesson11/2.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="33">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
@@ -980,6 +1023,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+=======
+        <state relative-caret-position="391">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
