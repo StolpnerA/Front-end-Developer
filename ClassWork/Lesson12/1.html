@@ -8,22 +8,31 @@
             margin: 0;
             padding: 0;
             list-style-type: none;
-            width: 150px;
-            border-bottom: solid 1px black;
+            /*border-bottom: solid 1px black;*/
             border-radius: 10px;
+            display: block;
         }
         li {
+            width: 200px;
             position: relative;
+            display: inline-block;
         }
         li ul {
             position: absolute;
-            top: 0px;
-            left: 150px;
+            /*top: 0px;
+            left: 150px;*/
             display: none;
         }
         li:hover ul {
             display: block;
         }
+        ul>li>ul>li:hover ul {
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: 150px;
+        }
+
         li a {
             display: block;
             border: solid 1px black;
@@ -38,6 +47,21 @@
             color: grey;
             background-color: white;
         }
+
+        @media all and (max-width: 640px) {
+            ul{
+                width: 200px;
+            }
+            li {
+                margin: 2px;
+                display: block;
+            }
+            li ul {
+                top: 0px;
+                left: 200px;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -45,6 +69,9 @@
         <li><a href="#">main 1</a>
         <ul>
             <li><a href="#">sub 1</a></li>
+                <ul>
+                    <li><a href="#">fqwefqwe</a></li>
+                </ul>
             <li><a href="#">sub 2</a></li>
             <li><a href="#">sub 3</a></li>
         </ul>
