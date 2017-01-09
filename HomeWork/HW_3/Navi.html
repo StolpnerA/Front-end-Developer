@@ -13,8 +13,13 @@
         }
         ul {
             counter-reset: topic;
+            /*counter-reset: date;*/
         }
-        ul li span::before {
+        /*ul li>b::before {
+            counter-increment: date+2;
+            content: '2016.12.' counter(date) ' ';
+        }*/
+        ul li>span::before {
             counter-increment: topic;
             content: 'Тема ' counter(topic) '.';
         }
