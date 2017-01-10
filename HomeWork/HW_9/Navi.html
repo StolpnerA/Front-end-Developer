@@ -12,13 +12,21 @@
             content: 'Задание ' counter(task1) '.';
         }
         ul {
-            counter-reset: topic;
-            /*counter-reset: date;*/
+            counter-reset: topic date 10 mounth 12 year 2016;
         }
-        /*ul li>b::before {
+        ul li>b::before {
             counter-increment: date+2;
-            content: '2016.12.' counter(date) ' ';
-        }*/
+            content: counter(year)'.' counter(mounth) '.' counter(date) ' ';
+        }
+        ul li.odd>b::before {
+            counter-increment: date+3;
+            content: counter(year)'.' counter(mounth) '.' counter(date) ' ';
+        }
+        ul li.mounth.year>b::before {
+            counter-reset: mounth date;
+            counter-increment: mounth date year;
+            content: counter(year)'.' counter(mounth) '.' counter(date) ' ';
+        }
         ul li>span::before {
             counter-increment: topic;
             content: 'Тема ' counter(topic) '.';
@@ -33,7 +41,7 @@
 <hr>
 <div style="font-size: 22px">
     <ul>
-        <li><b>2016.12.12</b> <span style="text-decoration: underline"> Введение в HTML. Ссылки</span>
+        <li><b></b> <span style="text-decoration: underline"> Введение в HTML. Ссылки</span>
             <ol style="list-style-type: circle">
                 <li>Задание очных занятий
                     <ul style="list-style-type: square">
@@ -53,7 +61,7 @@
             </ol>
         </li>
 
-        <li><b>2016.12.14</b> <span style="text-decoration: underline">Изображения. Введение в CSS</span>
+        <li><b></b> <span style="text-decoration: underline">Изображения. Введение в CSS</span>
             <ol style="list-style-type: circle">
                 <li>Домашние задания
                     <ul style="list-style-type: square">
@@ -63,7 +71,7 @@
             </ol>
         </li>
 
-        <li><b>2016.12.16</b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+        <li><b></b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
             <ol style="list-style-type: circle">
                 <li>Задание очных занятий
                     <ul style="list-style-type: square">
@@ -79,7 +87,23 @@
             </ol>
         </li>
 
-        <li><b>2016.12.19</b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+        <li class="odd"><b></b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+            <ol style="list-style-type: circle">
+                <li>Задание очных занятий
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/Letter.html" target=_blank>№2. Проект: Letter</a></li>
+                    </ul>
+                </li>
+                <li>Домашние задания
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020520/GoogleFont.html" target=_blank>ДЗ №3. Проект FONT_GWF</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+
+        <li class="mounth year"><b></b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
             <ol style="list-style-type: circle">
                 <li>Задание очных занятий
                     <ul style="list-style-type: square">
