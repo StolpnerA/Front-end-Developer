@@ -3,21 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        form {
+            margin-left: 250px;
+            margin-top: 100px;
+        }
+        .fieldGroup {
+            overflow: hidden;
+            padding: 2px;
+        }
+        .fieldGroup .textLabel {
+            display: block;
+            width: 13em;
+            float: left;
+        }
+        .fieldGroup .inputField {margin-left: 10em;}
+        .inputField input {width: 50%}
+        .fieldGroup .inputField input[type="submit"] {margin-left: 50px;}
+        @media all and (max-width: 800px){
+            .fieldGroup .textLabel {
+                float: none;
+                width: 30%;
+            }
+            .fieldGroup .inputField {margin-left: 0;}
+            .fieldGroup .inputField input[type="submit"] {margin-left: 0;}
+        }
+    </style>
 </head>
 <body>
 <form action="http://fe.it-academy.by/TestForm.php" method="post">
-    <label for="firsName" >Фамилия: </label>
-    <input type="text" name="firstName" id="firsName" placeholder="First name"><br>
-    <label for="lastName" >Имя: </label>
-    <input type="text" name="lastName" id="lastName" placeholder="Last name"><br>
-    <label for="midName" >Отчество: </label>
-    <input type="text" name="midName" id="midName" placeholder="Mid name"><br>
-    <label for="email" >E-mail: </label>
-    <input type="email" name="email" id="email" placeholder="E-mail"><br>
-    <label> Согласен с правилами сайта:
-        <input type="checkbox" checked name="someCheked">
-    </label><br>
-    <input type="submit" value="Регистрация">
+    <div class="fieldGroup">
+    <label for="firsName" class="textLabel">Фамилия: </label>
+        <div class="inputField">
+            <input type="text" name="firstName" id="firsName" placeholder="First name">
+        </div>
+    </div>
+    <div class="fieldGroup">
+    <label for="lastName" class="textLabel">Имя: </label>
+        <div class="inputField">
+            <input type="text" name="lastName" id="lastName" placeholder="Last name">
+        </div>
+    </div>
+    <div class="fieldGroup">
+    <label for="midName" class="textLabel">Отчество: </label>
+        <div class="inputField">
+            <input type="text" name="midName" id="midName" placeholder="Mid name">
+        </div>
+    </div>
+    <div class="fieldGroup">
+    <label for="email" class="textLabel">E-mail: </label>
+        <div class="inputField">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+        </div>
+    </div>
+
+    <div class="fieldGroup">
+        <label> Согласен с правилами сайта:
+                <input type="checkbox" checked name="someCheked">
+        </label>
+    </div>
+    <div class="fieldGroup">
+        <div class="inputField">
+            <input type="submit" value="Регистрация">
+        </div>
+    </div>
 </form>
 </body>
 </html>
