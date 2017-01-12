@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+    <style>
+        .fieldGroup {
+            padding: 2px;
+            overflow: hidden;;
+        }
+        .fieldGroup textarea {
+            width: 98%;
+        }
+        .fieldGroup .textLabel {
+            width: 12em;
+            display: block;
+            float: left;
+        }
+        .fieldGroup .inputField {
+            margin-left: 11em;
+        }
+        .fieldGroup .inputField select {
+            width: 30%;
+        }
+        .fieldGroup .textLabel[for="textArticle"] {
+            float: none;
+        }
+        .fieldGroup .inputField input[type="text"] {
+            width: 95%;
+        }
+        @media all and (max-width: 650px){
+            .fieldGroup .textLabel {
+                width: auto;
+                float: none;
+            }
+            .fieldGroup .inputField {
+                margin-left: 0;
+            }
+            .fieldGroup .inputField select {
+                width: 96%;
+            }
+            .fieldGroup .inputField label.radioLabel {
+                display: block;
+            }
+            .fieldGroup .textLabel[for="comment"] {
+                float: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+        <p>Для публикации вашей статьи, заполните пожалуйста слудующую форму:</p>
+
+        <div class="fieldGroup">
+            <label class="textLabel" for="nameArticle">Название статьи:</label>
+            <div class="inputField">
+                <input type="text" name="nameArticle" id="nameArticle">
+            </div>
+        </div>
+
+        <div class="fieldGroup">
+            <label class="textLabel" for="rubic">Рубрика:</label>
+            <div class="inputField">
+                <select name="rubic" id="rubic">
+                    <option value="1">программирование</option>
+                    <option value="2">Дизайн</option>
+                    <option value="3">Экономика</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="fieldGroup">
+            <label class="textLabel">Публикация:</label>
+            <div class="inputField">
+                <label class="radioLabel"><input type="radio" name="public" value="1">на сайте</label>
+                <label class="radioLabel"><input type="radio" name="public" value="2">в журнале</label>
+                <label class="radioLabel"><input type="radio" name="public" value="3">на сайте и в журнале</label>
+            </div>
+        </div>
+
+        <div class="fieldGroup">
+            <label class="textLabel" for="comment">Разрешитьпубликации:</label>
+            <div class="inputField">
+                <input type="checkbox" name="comment" id="comment" checked>
+            </div>
+        </div>
+
+        <div class="fieldGroup">
+            <label class="textLabel" for="textArticle">Текст статьи:</label>
+            <textarea name="textArticle" id="textArticle"></textarea>
+        </div>
+
+        <input type="submit" value="Опубликовать">
+    </form>
+
+</body>
+</html>
