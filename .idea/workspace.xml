@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/HomeWork/HW_12/MAKET_FORM.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -435,7 +435,7 @@
       <workItem from="1484116500445" duration="6361000" />
       <workItem from="1484129573626" duration="985000" />
       <workItem from="1484218101200" duration="29000" />
-      <workItem from="1484289236593" duration="1587000" />
+      <workItem from="1484289236593" duration="1701000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1482735922566</created>
@@ -759,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484289558891</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="2017-01-13">
+      <created>1484291561377</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1484291561377</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81895000" />
+    <option name="totallyTimeSpent" value="82009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1191,7 +1198,7 @@
     <entry file="file://$PROJECT_DIR$/HomeWork/HW_12/MAKET_FORM.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
       </provider>
