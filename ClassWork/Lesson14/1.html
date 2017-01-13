@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .fieldGroup {
+            overflow: hidden;
+            padding: 2px;
+        }
+        .fieldGroup .textLabel {
+            display: block;
+            width: 13em;
+            float: left;
+        }
+        .fieldGroup .inputField {margin-left: 10em;}
+        .fieldGroup .inputField input {width: 50%}
+        .fieldGroup .inputField input[type="submit"] {margin-left: 50px;}
+        @media all and (max-width: 800px){
+            .fieldGroup .textLabel {
+                float: none;
+                width: 30%;
+            }
+            .fieldGroup .inputField {margin-left: 0;}
+            .fieldGroup .inputField input[type="submit"] {margin-left: 0;}
+        }
+        input#someCheck, input#someCheck + label + div {
+            display: none;
+        }
+        input#someCheck + label {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        input#someCheck:checked + label + div {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<input type="checkbox" id="someCheck">
+<label for="someCheck">Click Me!</label>
+<div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam aspernatur aut autem deserunt distinctio earum incidunt, labore neque nihil nulla, odit optio, porro qui rem sunt vero voluptatibus voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci aut consequatur consequuntur dolore doloremque et excepturi facilis iure minus nemo nesciunt numquam possimus provident quis, recusandae, sed veniam voluptatem.
+</div>
+
+
+
+<form action="http://fe.it-academy.by/TestForm.php" method="post">
+
+    <input type="text" name="text" pattern="19(39|4[0-5])" placeholder="1939-1945">
+
+    <div class="fieldGroup">
+    <label for="firsName" class="textLabel">Фамилия: </label>
+        <div class="inputField">
+            <input type="text" name="firstName" id="firsName" placeholder="First name">
+        </div>
+    </div>
+    <div class="fieldGroup">
+    <label for="lastName" class="textLabel">Имя: </label>
+        <div class="inputField">
+            <input type="text" name="lastName" id="lastName" placeholder="Last name">
+        </div>
+    </div>
+    <div class="fieldGroup">
+    <label for="midName" class="textLabel">Отчество: </label>
+        <div class="inputField">
+            <input type="text" name="midName" id="midName" placeholder="Mid name">
+        </div>
+    </div>
+    <div class="fieldGroup">
+    <label for="email" class="textLabel">E-mail: </label>
+        <div class="inputField">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+        </div>
+    </div>
+
+    <div class="fieldGroup">
+        <label class="textLabel"> Согласен с правилами сайта:</label>
+            <input type="checkbox" checked name="someCheked">
+    </div>
+    <div class="fieldGroup">
+        <div class="inputField">
+            <input type="submit" value="Регистрация">
+        </div>
+    </div>
+</form>
+</body>
+</html>
