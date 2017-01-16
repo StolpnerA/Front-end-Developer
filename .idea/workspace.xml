@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed1e986-9e29-4aea-a7e9-b885c6be12ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/HW_13/MAKET_ABS.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -415,7 +414,7 @@
       <workItem from="1484235004679" duration="9000" />
       <workItem from="1484314440753" duration="734000" />
       <workItem from="1484407697487" duration="60000" />
-      <workItem from="1484408434765" duration="4610000" />
+      <workItem from="1484408434765" duration="4635000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1482735922566</created>
@@ -746,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484409338298</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="2017-01-14">
+      <created>1484565005674</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1484565005674</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102022000" />
+    <option name="totallyTimeSpent" value="102047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
