@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        /* радиокнопки скрыты */
+        input.SRadioFolder
+        {
+            display: none;
+        }
+
+        /* но их метки видны и выстраиваются в линейку */
+        input.SRadioFolder + label
+        {
+            width: 20px;
+            background-color: #aaaaaa;
+            display: block;
+            margin-right: 5px;
+            padding: 0 10px 0 10px;
+            border-radius: 0 0 0 10px;
+            line-height: 2em;
+        }
+
+        /* самая первая метка - с отступом слева */
+        /*input.SRadioFolder:first-child + label
+        {
+            margin-left: 10px;
+        }
+*/
+        /* метка выбранной радиокнопки - голубой фон */
+        input.SRadioFolder:checked + label
+        {
+            background-color: cyan;
+        }
+
+        /* все контенты обычно не видны */
+        input.SRadioFolder + label + div
+        {
+            display: none;
+        }
+
+        /* контент выбранной радиокнопки виден */
+        input.SRadioFolder:checked + label + div
+        {
+            display: block;
+            position: absolute;
+            left: 40px;
+            top: 0;
+            min-width: 20em;
+            max-width: 20em;
+            background-color: cyan;
+            border-radius: 0 10px 10px 0;
+            padding: 10px;
+            height: 6.77em;
+        }
+    </style>
+
+</head>
+<body>
+
+<div style='position: relative'>
+
+    <input type=radio name=FOLDER id=FOLDER1 checked class='SRadioFolder'>
+    <label for=FOLDER1>1.</label>
+    <div class='SFolderDiv'>
+        Однажды в студёную зимнюю пору<br />
+        Я из лесу вышел &mdash; был сильный мороз!
+    </div>
+
+    <input type=radio name=FOLDER id=FOLDER2 class='SRadioFolder'>
+    <label for=FOLDER2>2.</label>
+    <div class='SFolderDiv'>
+        Гляжу &mdash; поднимается медленно в гору<br />
+        лошадка, везущая хворосту воз.<br />
+        И шествуя рядом, в спокойствии чинном,<br />
+        Лошадку ведёт под уздцы мужичок.
+    </div>
+
+    <input type=radio name=FOLDER id=FOLDER3 class='SRadioFolder'>
+    <label for=FOLDER3>3.</label>
+    <div class='SFolderDiv'>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consectetur distinctio eius enim eum illo illum nobis saepe vitae voluptatibus. Aperiam assumenda corporis culpa cumque ex iusto nobis odio, perferendis.
+    </div>
+
+    <input type=radio name=FOLDER id=FOLDER4 class='SRadioFolder'>
+    <label for=FOLDER4>4.</label>
+    <div class='SFolderDiv'>
+        flerkwfl;ewrrfweflerkwfl;ewrrfwe flerkwfl;ewrrfwe flerkwfl;ewrrfwe flerkwfl;ewrrfwe flerkwfl;ewrrfwe flerkwfl;ewrrfwe flerkwfl;ewrrfwe flerkwfl;ewrrfwe
+    </div>
+
+</div>
+</body>
+</html>

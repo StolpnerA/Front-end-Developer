@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <title>Navigator for Stolpner</title>
+    <style>
+        ul ul {
+            counter-reset: task1;
+        }
+        ul ul li>em::before {
+            counter-increment: task1;
+            content: 'Задание ' counter(task1) '.';
+        }
+        ul {
+            counter-reset: topic date 10 mounth 12 year 2016;
+        }
+        ul li>b::before {
+            counter-increment: date+2;
+            content: counter(year)'.' counter(mounth) '.' counter(date) ' ';
+        }
+        ul li.odd>b::before {
+            counter-increment: date+3;
+            content: counter(year)'.' counter(mounth) '.' counter(date) ' ';
+        }
+        ul li.mounth.year>b::before {
+            counter-reset: mounth date;
+            counter-increment: mounth date year;
+            content: counter(year)'.' counter(mounth) '.' counter(date) ' ';
+        }
+        ul li>span::before {
+            counter-increment: topic;
+            content: 'Тема ' counter(topic) '.';
+        }
+        input.SRadioFolder
+        {
+            display: none;
+        }
+
+        /* но их метки видны и выстраиваются в линейку */
+        input.SRadioFolder + label
+        {
+            float: left;
+            background-color: #aaaaaa;
+            display: block;
+            margin-right: 5px;
+            padding: 0 10px 0 10px;
+            border-radius: 10px 10px 0 0;
+            line-height: 2em;
+        }
+        input.SRadioFolder:first-child + label
+        {
+            margin-left: 10px;
+        }
+
+        /* метка выбранной радиокнопки - голубой фон */
+        input.SRadioFolder:checked + label
+        {
+            background-color: cyan;
+        }
+
+        /* все контенты обычно не видны */
+        input.SRadioFolder + label + div
+        {
+            display: none;
+        }
+
+        /* контент выбранной радиокнопки виден */
+        input.SRadioFolder:checked + label + div
+        {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 2em;
+            min-width: 20em;
+            background-color: cyan;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Навигация по проектам</h1>
+<h2>Столпнер Андрей Сергеевич</h2>
+<h3>Группа № FD1-36-16</h3>
+<br>
+<hr>
+    <ul>
+        <div>
+            <input type=radio name=FOLDER id=FOLDER1 checked class='SRadioFolder'>
+            <label for=FOLDER1>1.<li><b></b> <span style="text-decoration: underline"> Введение в HTML. Ссылки</span>
+            </label>
+                <div class='SFolderDiv'>
+                    <ol style="list-style-type: circle">
+                        <li>Задание очных занятий
+                            <ul style="list-style-type: square">
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task1.html" target=_blank>№1.</a></li>
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task2.html" target=_blank>№2.</a></li>
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task3.html" target=_blank>№3.</a></li>
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task4.html" target=_blank>№4.</a></li>
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020441/Task5.html" target=_blank>№5.</a></li>
+                            </ul>
+                        </li>
+                        <li>Домашние задания
+                            <ul style="list-style-type: square">
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020445/Task1a.html" target=_blank>ДЗ №1а. Проект DIARY</a></li>
+                                <li><em></em><a href="http://fe.it-academy.by/Sites/0020446/vizbor.html" target=_blank>ДЗ №1b. Проект VIZSBOR</a></li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </li>
+        </div>
+        <li><b></b> <span style="text-decoration: underline">Изображения. Введение в CSS</span>
+            <ol style="list-style-type: circle">
+                <li>Домашние задания
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020502/HW.html" target=_blank>ДЗ №2. Проект CHILDBOOK</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <div>
+            <input type=radio name=FOLDER id=FOLDER2 checked class='SRadioFolder'>
+            <label for=FOLDER1>1.<li><b></b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+            </label>
+            <div class='SFolderDiv'>
+            <ol style="list-style-type: circle">
+                <li>Задание очных занятий
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
+                    </ul>
+                </li>
+                <li>Домашние задания
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020448/Article.html" target=_blank>ДЗ №3a. Проект Article</a></li>
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020448/Navigator.html" target=_blank>ДЗ №3b. Проект Navigator</a></li>
+                    </ul>
+                </li>
+            </ol>
+            </div>
+        </li>
+
+        <li class="odd"><b></b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+            <ol style="list-style-type: circle">
+                <li>Задание очных занятий
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/Letter.html" target=_blank>№2. Проект: Letter</a></li>
+                    </ul>
+                </li>
+                <li>Домашние задания
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020520/GoogleFont.html" target=_blank>ДЗ №3. Проект FONT_GWF</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+
+        <li class="mounth year"><b></b> <span style="text-decoration: underline">Цвет. Шрифт. Границы. Размеры</span>
+            <ol style="list-style-type: circle">
+                <li>Задание очных занятий
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/SG.html" target=_blank>№1. Проект: SG</a></li>
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020398/Letter.html" target=_blank>№2. Проект: Letter</a></li>
+                    </ul>
+                </li>
+                <li>Домашние задания
+                    <ul style="list-style-type: square">
+                        <li><em></em><a href="http://fe.it-academy.by/Sites/0020520/GoogleFont.html" target=_blank>ДЗ №3. Проект FONT_GWF</a></li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
