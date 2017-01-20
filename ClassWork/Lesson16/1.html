@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        .flex-element-1 {
+            flex: 0 1 30%;
+            background-color: red;
+        }
+        .flex-element-2 {
+            flex: 0 1 30%;
+            background-color: green;
+        }
+        .flex-element-3 {
+            flex: 0 1 30%;
+
+            background-color: blue;
+        }
+        @media all and (max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            div[class*="flex-element"] {
+                padding-bottom: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-element-1">
+            flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1 flex-element-1
+        </div>
+        <div class="flex-element-2">
+            flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2 flex-element-2
+        </div>
+        <div class="flex-element-3">
+            flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3 flex-element-3
+        </div>
+    </div>
+</body>
+</html>
