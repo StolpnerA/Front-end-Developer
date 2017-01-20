@@ -5,6 +5,12 @@
     <title>HomeWork</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <style>
+        .js .js-attention {
+            display: none;
+        }
+        .no-js [class*="fieldGroup"] {
+            display: none;
+        }
         .fieldGroup {
             display: flex;
         }
@@ -29,6 +35,9 @@
     </style>
 </head>
 <body>
+<div class="js-attention">
+    wegwergwerg
+</div>
 <p>Для публикации вашей статьи, заполните пожалуйста следующую форму:</p>
     <form action="http://fe.it-academy.by/TestForm.php" method="post">
         <div class="fieldGroup">
