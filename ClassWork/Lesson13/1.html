@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <style>
         .fieldGroup {
             overflow: hidden;
@@ -31,35 +37,35 @@
     <div class="fieldGroup">
     <label for="firsName" class="textLabel">Фамилия: </label>
         <div class="inputField">
-            <input type="text" name="firstName" id="firsName" placeholder="First name">
+            <input type="text" class="form-control" name="firstName" id="firsName" placeholder="First name">
         </div>
     </div>
     <div class="fieldGroup">
     <label for="lastName" class="textLabel">Имя: </label>
         <div class="inputField">
-            <input type="text" name="lastName" id="lastName" placeholder="Last name">
+            <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last name">
         </div>
     </div>
     <div class="fieldGroup">
     <label for="midName" class="textLabel">Отчество: </label>
         <div class="inputField">
-            <input type="text" name="midName" id="midName" placeholder="Mid name">
+            <input type="text" class="form-control" name="midName" id="midName" placeholder="Mid name">
         </div>
     </div>
     <div class="fieldGroup">
     <label for="email" class="textLabel">E-mail: </label>
         <div class="inputField">
-            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="email" class="form-control" name="email" id="email" placeholder="E-mail">
         </div>
     </div>
 
     <div class="fieldGroup">
         <label class="textLabel"> Согласен с правилами сайта:</label>
-            <input type="checkbox" checked name="someCheked">
+            <input type="checkbox" content="checkbox" checked name="someCheked">
     </div>
     <div class="fieldGroup">
         <div class="inputField">
-            <input type="submit" value="Регистрация">
+            <input type="submit" class="btn btn-primary" value="Регестрация">
         </div>
     </div>
 </form>
