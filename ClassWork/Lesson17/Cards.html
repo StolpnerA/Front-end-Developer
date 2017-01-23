@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<HTML> 
+        <HEAD> 
+            <META charset="utf-8"> 
+            <TITLE>Пример страницы</TITLE> 
+			<style>
+                @keyframes cardAnimation {
+                    0% {opacity: 1;}
+                    13.333333% {opacity: 1;}
+                    20.666666% {opacity: 0;}
+                    94.2857% {opacity: 0;}
+                    100% {opacity: 1;}
+                }
+                .card:not(:first-child) {
+                    animation-name: cardAnimation;
+                    animation-duration: 7.55s;
+                    animation-iteration-count: infinite;
+                }
+.card {
+    position: absolute;
+    background-image: url('cards.png');
+	background-repeat: no-repeat;
+	width:143px;
+	height:198px;
+    float: left;
+}
+
+.card-01 {
+	background-position: 0 0;
+    animation-delay: 1s;
+}
+.card-02 {
+	background-position: -143px -198px;
+    animation-delay: 1s;
+
+}
+.card-03 {
+	background-position: 0 -198px;
+    animation-delay: 1s;
+
+}
+                .card-04 {
+                    background-position: 0 -400px;
+                    animation-delay: 1s;
+
+                }
+                .card-05 {
+                    background-position: -143px -400px;
+                    animation-delay: 0s;
+
+                }
+			</style>
+        </HEAD> 
+        <BODY>
+			<div class="card card-01"></div>
+			<div class="card card-02"></div>
+			<div class="card card-03"></div>
+            <div class="card card-04"></div>
+            <div class="card card-05"></div>
+
+
+        </BODY> 
+</HTML> 
