@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork</title>
+    <style>
+        article {
+            overflow: hidden;
+            margin-left: 25px;
+        }
+        body {
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: block;
+            font-size: 22px;
+        }
+        li {
+            width: auto;
+            padding-right: 20px;
+            display: inline-block;
+            position: relative;
+        }
+        li ul {
+            position: absolute;
+            display: none;
+        }
+        div>p { margin: 0}
+        a:hover {
+            color: red;
+        }
+        .nameArticle {
+            text-align: center;
+        }
+        .HeaderFooter {
+            text-align: center;
+            padding: 20px;
+            background-color: deepskyblue;
+            color: blue;
+        }
+        .Menu {
+            width: auto;
+            height: 4em;
+            padding-top: 10px;
+            text-align: center;
+            background-color: yellowgreen;
+        }
+        .nameMenu {
+            text-align: center;
+            font-weight: bold;
+        }
+        .backgroundArticle {
+            background: url('Ball.png') top right repeat-y;
+        }
+        [src$="2.png"] {
+            float: left;
+            margin-right: 20px;
+            width: 200px;
+            height: 134px;
+        }
+        #footer {
+            clear: both;
+        }
+        @media all and (max-width: 1600px) {
+            article {
+                overflow: hidden;
+                margin-left: 175px;
+            }
+            ul {
+                font-size: 14px;
+            }
+            li {
+                width: 153px;
+                padding-right: 0;
+                padding-bottom: 10px;
+                display: block;
+                position: static;
+            }
+            li ul {
+                position: static;
+            }
+            .backgroundMenu {
+                background: url('1.png') left top repeat-y;
+            }
+            div>p {margin: 1em}
+            div.Menu {
+                width: 153px;
+                height: 0;
+                float: left;
+                text-align: left !important;
+                padding-left: 20px;
+                padding-top: 0;
+                background-color: white!important;
+
+            }
+            .nameMenu {
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+        @media all and (min-width: 2000px) {
+            p.article {
+                max-width: 70%;
+                font-size: 24px;
+            }
+        }
+        .add {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px;
+            width: 90px;
+            border: solid 2px green;
+            background-color: lightgreen;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="add"><a href="#">ВСТУПИТЬ В КЛУБ</a></div>
+
+<div class="HeaderFooter">ПРИВЕТ УЧАСТНИКОМ СОРЕВНОВАНИЯ!</div>
+
+<div class="backgroundMenu">
+<div class="Menu">
+    <p class="nameMenu">Виды спорта:</p>
+    <ul>
+        <li><a href="https://www.onliner.by/" title="onliner" target="_blank">конькобежный спорт</a></li>
+        <li><a href="https://www.tut.by/?crnd=98167" target="_blank" title="TUT">битлон</a></li>
+        <li><a href="http://www.bbc.com/news" target="_blank" title="BBC">футбол</a></li>
+        <li><a href="https://www.onliner.by/" target="_blank" title="onliner">стрельба из лука</a></li>
+        <li><a href="https://www.tut.by/?crnd=98167" target="_blank" title="TUT">прыжки в длину</a></li>
+        <li><a href="http://www.bbc.com/news" target="_blank" title="BBC">прыжки в высоту</a></li>
+        <li><a href="https://www.onliner.by/" target="_blank" title="onliner">фигурное катание</a></li>
+        <li><a href="https://www.tut.by/?crnd=98167" target="_blank" title="TUT">синхронное плавание</a></li>
+        <li><a href="http://www.bbc.com/news" target="_blank" title="BBC">шахматы</a></li>
+        <li><a href="https://www.onliner.by/" target="_blank" title="onliner">шашки</a></li>
+    </ul>
+</div>
+<div class="backgroundArticle">
+<article>
+    <h3 class="nameArticle">ФУТБОЛ</h3>
+    <img src="2.png" title="Футбол" alt="Здесь должна быть картинка">
+    <p class="article">Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперкинка.
+    </p>
+    <p class="article">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
+    </p>
+</article>
+<div class="HeaderFooter" id="footer">ГЛАВНОЕ НЕ ПОБЕА, А УЧАСТИЕ!</div>
+</div>
+</div>
+</body>
+</html>
