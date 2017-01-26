@@ -4,128 +4,73 @@
     <meta charset="UTF-8">
     <title>HomeWork</title>
     <style>
-        article {
-            overflow: hidden;
-            margin-left: 25px;
-        }
         body {
             margin: 0;
         }
         ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            display: block;
-            font-size: 22px;
+            padding-left: 18px;
         }
-        li {
-            width: auto;
-            padding-right: 20px;
-            display: inline-block;
-            position: relative;
+        article {
+            padding-left: 20px;
+            background: url('Ball.png') top right repeat-y;
         }
-        li ul {
-            position: absolute;
-            display: none;
+        .all {
+            display: flex;
         }
-        div>p { margin: 0}
-        a:hover {
-            color: red;
+        .HeaderFooter {
+            padding: 15px;
+            text-align: center;
+            font-size: large;
+            background-color: deepskyblue;
+        }
+        .Menu {
+            padding-left: 20px;
+            background-color: yellowgreen;
         }
         .nameArticle {
             text-align: center;
         }
-        .HeaderFooter {
-            text-align: center;
-            padding: 20px;
-            background-color: deepskyblue;
-            color: blue;
-        }
-        .Menu {
-            width: auto;
-            height: 4em;
-            padding-top: 10px;
-            text-align: center;
-            background-color: yellowgreen;
+        .football {
+            float: left;
+            padding-right: 20px;
         }
         .nameMenu {
-            text-align: center;
             font-weight: bold;
         }
-        .backgroundArticle {
-            background: url('Ball.png') top right repeat-y;
-        }
-        [src$="2.png"] {
-            float: left;
-            margin-right: 20px;
-            width: 200px;
-            height: 134px;
-        }
-        #footer {
-            clear: both;
-        }
-        @media all and (max-width: 1600px) {
-            article {
-                overflow: hidden;
-                margin-left: 175px;
-            }
+        @media all and (max-width: 800px) {
             ul {
-                font-size: 14px;
-            }
-            li {
-                width: 153px;
-                padding-right: 0;
-                padding-bottom: 10px;
-                display: block;
-                position: static;
-            }
-            li ul {
-                position: static;
-            }
-            .backgroundMenu {
-                background: url('1.png') left top repeat-y;
-            }
-            div>p {margin: 1em}
-            div.Menu {
-                width: 153px;
-                height: 0;
-                float: left;
-                text-align: left !important;
-                padding-left: 20px;
-                padding-top: 0;
-                background-color: white!important;
+                list-style: none;
+                padding-left: 0;
 
             }
-            .nameMenu {
-                text-align: center;
-                font-weight: bold;
+            li {
+                display: inline;
             }
-        }
-        @media all and (min-width: 2000px) {
-            p.article {
-                max-width: 70%;
-                font-size: 24px;
+            article {
+                background: none;
+                order: 1;
             }
-        }
-        .add {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 10px;
-            width: 90px;
-            border: solid 2px green;
-            background-color: lightgreen;
-            text-align: center;
+            .HeaderFooter {
+                display: none;
+            }
+            .all {
+                flex-direction: column;
+                width: 30%;
+            }
+            .Menu {
+                background-color: white;
+                order: 2;
+            }
+            .football {
+                float: none;
+            }
         }
     </style>
 </head>
 <body>
 
-<div class="add"><a href="#">ВСТУПИТЬ В КЛУБ</a></div>
-
 <div class="HeaderFooter">ПРИВЕТ УЧАСТНИКОМ СОРЕВНОВАНИЯ!</div>
-
-<div class="backgroundMenu">
+<div class="all">
 <div class="Menu">
     <p class="nameMenu">Виды спорта:</p>
     <ul>
@@ -141,10 +86,9 @@
         <li><a href="https://www.onliner.by/" target="_blank" title="onliner">шашки</a></li>
     </ul>
 </div>
-<div class="backgroundArticle">
 <article>
     <h3 class="nameArticle">ФУТБОЛ</h3>
-    <img src="2.png" title="Футбол" alt="Здесь должна быть картинка">
+    <img class="football" src="2.png" title="Футбол" alt="Здесь должна быть картинка">
     <p class="article">Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем команда соперкинка.
     </p>
     <p class="article">
@@ -163,8 +107,7 @@
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur fugiat ipsum natus numquam provident, rem tempore veniam? Beatae debitis ea facilis fugiat illo laborum quas voluptatem. Architecto, illo temporibus!
     </p>
 </article>
+</div>
 <div class="HeaderFooter" id="footer">ГЛАВНОЕ НЕ ПОБЕА, А УЧАСТИЕ!</div>
-</div>
-</div>
 </body>
 </html>
