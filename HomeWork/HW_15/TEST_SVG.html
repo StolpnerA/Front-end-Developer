@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .buttonR {
-            width: 40px;
-            height: 25px;
-        }
+
     </style>
 </head>
 <body>
@@ -17,12 +14,28 @@
 
     <rect class="case" width="300" height="200" x="10" y="10" rx="50" fill="dimgray"></rect>
     <rect class="screen" width="200" height="160" x="30" y="30" rx="30" fill="deepskyblue"></rect>
+    <rect class="square" width="50" height="80" x="30" y="70"    fill="dark">
+        <animate attributeType="xml" attributeName="width" from="50" to="100" dur="3s" repeatCount="indefinite" ></animate>
+        <animate attributeType="xml" attributeName="x" from="30" to="130" dur="4s" repeatCount="indefinite" ></animate>
+        <animate attributeType="xml" attributeName="width" from="100" to="0" dur="1s" repeatCount="indefinite" ></animate>
+    </rect>
 
     <rect class="panel" width="50" height="90" x="245" y="70" rx= "10" fill="black"></rect>
 
-    <rect class="buttonR" width="30" height="15" x="255" y="80" rx="5" fill="red"></rect>
-    <rect class="button" width="30" height="15" x="255" y="105" rx="5" fill="gold"></rect>
-    <rect class="button" width="30" height="15" x="255" y="130" rx="5" fill="lime"></rect>
+    <rect class="buttonR" width="30" height="15" x="255" y="80" rx="5" fill="red">
+        <animate attributeType="CSS" attributeName="fill" from="#FF0000" to="#fff" dur="1s" repeatCount="indefinite" begin="click" fill="freeze"></animate>
+    </rect>
+    <rect class="button" width="30" height="15" x="255" y="105" rx="5" fill="gold">
+        <animate attributeType="xml" attributeName="width" from="30" to="40" dur="1s" repeatCount="indefinite" begin="click" ></animate>
+        <animate attributeType="xml" attributeName="height" from="15" to="20" dur="1s" repeatCount="indefinite" begin="click" ></animate>
+    </rect>
+    <rect class="button" width="30" height="15" x="255" y="130" rx="5" fill="lime" stroke="white" stroke-width="3" >
+        <animate attributeType="CSS" attributeName="stroke" from="white" to="red" dur="1s" repeatCount="indefinite" begin="click" fill="freeze"></animate>
+        <animate attributeType="CSS" attributeName="stroke-width" from="3" to="10" dur="1s" repeatCount="indefinite" begin="click" fill="freeze"></animate>
+
+    </rect>
+
+</svg>
 </svg>
 </body>
 </html>
