@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed1e986-9e29-4aea-a7e9-b885c6be12ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project1/CSS/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/index.html" afterPath="$PROJECT_DIR$/Project/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html" afterPath="$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +26,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Project1/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="22" column="143" lean-forward="false" selection-start-line="22" selection-start-column="143" selection-end-line="22" selection-end-column="143" />
+                <state relative-caret-position="238">
+                  <caret line="22" column="242" lean-forward="true" selection-start-line="22" selection-start-column="242" selection-end-line="22" selection-end-column="242" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -40,10 +38,30 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="MAKET_DIV.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TEST_SVG.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Project1/CSS/style.css">
               <provider selected="true" editor-type-id="text-editor">
@@ -118,15 +136,15 @@
         <option value="$PROJECT_DIR$/ClassWork/Lesson16/MAKET_FORM.html" />
         <option value="$PROJECT_DIR$/Smile.html" />
         <option value="$PROJECT_DIR$/Ball.html" />
-        <option value="$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson18/Gallery.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson17/animation_blank.html" />
-        <option value="$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html" />
         <option value="$PROJECT_DIR$/Project/Header.html" />
         <option value="$PROJECT_DIR$/Project/CSS/Style.css" />
         <option value="$PROJECT_DIR$/Project/index.html" />
         <option value="$PROJECT_DIR$/Project1/index.html" />
         <option value="$PROJECT_DIR$/Project1/CSS/style.css" />
+        <option value="$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html" />
+        <option value="$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html" />
       </list>
     </option>
   </component>
@@ -201,7 +219,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project1" />
+              <option name="myItemId" value="HomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HW_15" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,43 +237,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front-end-Developer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front-end-Developer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front-end-Developer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front-end-Developer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
+              <option name="myItemId" value="HomeWork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,14 +397,8 @@
       <workItem from="1485278932612" duration="3235000" />
       <workItem from="1485461246728" duration="11562000" />
       <workItem from="1485522660920" duration="18944000" />
-      <workItem from="1485549423228" duration="5410000" />
-    </task>
-    <task id="LOCAL-00012" summary="2016-12-28">
-      <created>1482998844862</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1482998844862</updated>
+      <workItem from="1485549423228" duration="5433000" />
+      <workItem from="1485717614019" duration="302000" />
     </task>
     <task id="LOCAL-00013" summary="2016-12-28">
       <created>1483045409068</created>
@@ -756,11 +736,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485541771579</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Project">
+      <created>1485554854913</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1485554854913</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150635000" />
+    <option name="totallyTimeSpent" value="150960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +839,8 @@
     <MESSAGE value="2017-01-24" />
     <MESSAGE value="2017-01-27" />
     <MESSAGE value="gauno" />
-    <option name="LAST_COMMIT_MESSAGE" value="gauno" />
+    <MESSAGE value="Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1141,24 +1129,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="77" lean-forward="true" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/Lesson17/Cards.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="7" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1188,7 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,7 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="22" column="140" lean-forward="false" selection-start-line="22" selection-start-column="140" selection-end-line="22" selection-end-column="140" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,11 +1182,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="143" lean-forward="false" selection-start-line="22" selection-start-column="143" selection-end-line="22" selection-end-column="143" />
+        <state relative-caret-position="238">
+          <caret line="22" column="242" lean-forward="true" selection-start-line="22" selection-start-column="242" selection-end-line="22" selection-end-column="242" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
