@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Здесь может быть некий текст...</p>
+<script>
+
+    var SpeedS=prompt('Введите скорость:');
+    var Speed=parseFloat(SpeedS);
+    if (!isNaN(Speed))
+    {
+        if (Speed > 100)
+            console.log('Полет!');
+        else {
+            if (Speed > 80)
+                console.log('вы с ума сошли!');
+            else {
+                if (Speed > 60)
+                    console.log('превышение!');
+                else
+                        console.log('норма');
+            }
+        }
+    }
+    else
+        console.log("Надо ввести число!!!!!!!!!!!!!");
+
+    /*var SpeedS=prompt('Введите скорость:');
+    var Speed=parseFloat(SpeedS);
+
+    if ( Speed>60 )
+        console.log('превышение!');
+    else
+        console.log('норма.');*/
+
+    /*var Rost=prompt('Введите ваш рост: ');
+    var HelloMsg='Привет ';
+    var Name='умник ';
+
+    //console.log( 'Ваш рост: ' + Rost + 'см. и ' + (Rost-Rost%30)/30 + '" и ' + (Rost-Rost%2.5)/2.5);
+    console.log(HelloMsg+Name+'Ваш рост: ' + Rost);
+    console.log( Rost-172 );
+
+    console.log( (Rost-0.5)/2 );*/
+
+
+    /*var rost=172.5;
+    var helloMsg='Привет';
+    var name='умник';
+
+   console.log('сообщение');
+
+    var M='мама';
+    console.log(M);
+
+    console.log('пора\nдомой');*/
+</script>
+<p>Здесь может быть ещё текст...</p>
+
+</body>
+</html>
