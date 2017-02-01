@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var surname;
+    var name;
+    var secname;
+    var year;
+    var yearDay;
+    var yearBefor;
+    var sex;
+    var pens;
+
+    surname = prompt('Фамилия', 'Ивано ');
+    name = prompt('Имя', 'Иван ');
+    secname = prompt('Отчество', 'Иванович');
+    year = prompt('Возраст в годах', '20');
+    year = parseInt(year);
+    sex = confirm('Ваш пол - мужской?');
+
+    if (((sex) && (year>=63)) || ((!(sex)) && (year>=58)))
+    {
+        pens='Да';
+    }
+    else pens='Нет';
+
+    if (sex)
+        sex='Мужской';
+    else sex='Женский';
+
+    yearBefor = year+5;
+    yearDay = year*365;
+
+    alert('Ваше ФИО: '+surname+name+secname+'\n'+
+            'Ваш возраст в годах: '+year+'\n'+
+            'Ваш возраст в днях: '+yearDay+'\n'+
+            'Через 5 лет вам будет: '+yearBefor+'\n'+
+            'Ваш пол: '+sex+'\n'+
+            'Вы на пенсии: '+pens);
+
+
+</script>
+</body>
+</html>
