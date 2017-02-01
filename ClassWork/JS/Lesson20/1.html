@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var ColorNames;
+    ColorNames='';
+    for ( var ColorNum=1; ColorNum<=7; ColorNum++ )
+    {
+        var ColorName;
+        switch ( ColorNum )
+        {
+            case 1:
+                ColorName='красный\n';
+                break;
+            case 2:
+                ColorName='оранжевый\n';
+                break;
+            case 3:
+                ColorName='жёлтый\n';
+                break;
+            case 4:
+                ColorName='зелёный\n';
+                break;
+            case 5:
+                ColorName='голубой\n';
+                break;
+            case 6:
+                ColorName='синий\n';
+                break;
+            case 7:
+                ColorName='фиолетовый\n';
+                break;
+        }
+        ColorNames += ColorName;
+        console.log( ColorName );
+    }
+    alert(ColorNames);
+
+
+    /*do
+    {
+        var ColorNumS=prompt('Введите номер цвета в радуге:');
+        var ColorNum=parseInt(ColorNumS);
+    }
+    while (!(ColorNum >= 1 && ColorNum <= 7));
+    var ColorName;
+    switch ( ColorNum )
+    {
+        case 1:
+            ColorName='красный';
+            break;
+        case 2:
+            ColorName='оранжевый';
+            break;
+        case 3:
+            ColorName='жёлтый';
+            break;
+        case 4:
+            ColorName='зелёный';
+            break;
+        case 5:
+            ColorName='голубой';
+            break;
+        case 6:
+            ColorName='синий';
+            break;
+        case 7:
+            ColorName='фиолетовый';
+            break;
+        default: ColorName='Нету такого цвета в радуге';
+    }
+
+    console.log( ColorName );*/
+</script>
+</body>
+</html>
