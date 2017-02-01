@@ -6,6 +6,7 @@
 </head>
 <body>
 <script>
+    /*
     var ColorNames;
     ColorNames='';
     for ( var ColorNum=1; ColorNum<=7; ColorNum++ )
@@ -30,7 +31,7 @@
                 break;
             case 6:
                 ColorName='синий\n';
-                break;
+                break;.
             case 7:
                 ColorName='фиолетовый\n';
                 break;
@@ -39,14 +40,18 @@
         console.log( ColorName );
     }
     alert(ColorNames);
-
-
-    /*do
-    {
-        var ColorNumS=prompt('Введите номер цвета в радуге:');
-        var ColorNum=parseInt(ColorNumS);
+*/
+    var ColorNum
+    function check(ColorNum) {
+        do
+        {
+            var ColorNumS=prompt('Введите номер цвета в радуге:');
+            ColorNum=parseInt(ColorNumS);
+        }
+        while (!(ColorNum >= 1 && ColorNum <= 7));
+        return ColorNum;
     }
-    while (!(ColorNum >= 1 && ColorNum <= 7));
+    check(ColorNum);
     var ColorName;
     switch ( ColorNum )
     {
@@ -74,7 +79,7 @@
         default: ColorName='Нету такого цвета в радуге';
     }
 
-    console.log( ColorName );*/
+    console.log( ColorName );
 </script>
 </body>
 </html>
