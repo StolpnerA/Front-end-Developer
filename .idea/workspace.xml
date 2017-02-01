@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed1e986-9e29-4aea-a7e9-b885c6be12ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ClassWork/JS/Lesson20/2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA_oper.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ANKETA.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA.html">
+      <file leaf-file-name="ANKETA_oper.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA_oper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="726">
+              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -74,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HomeWork/HW_1/VIZBOR/vechno_student.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_1/VIZBOR/vizbor.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_2/CHILDBOOK.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_3/Navi.html" />
@@ -125,6 +123,7 @@
         <option value="$PROJECT_DIR$/ClassWork/JS/Lesson20/1.html" />
         <option value="$PROJECT_DIR$/ClassWork/JS/Lesson20/2.html" />
         <option value="$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA.html" />
+        <option value="$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA_oper.html" />
       </list>
     </option>
   </component>
@@ -312,11 +311,11 @@
       <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\ClassWork\JS" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\HomeWork\JS\HW_16" />
       <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\ClassWork\Lesson18" />
       <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\ClassWork\Lesson17" />
       <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\ClassWork\Lesson16" />
       <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\ClassWork\Lesson15" />
-      <recent name="C:\Users\Andrey\WebstormProjects\Front-end-Developer\ClassWork\Lesson14" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.MAKET_FORM.html">
@@ -461,14 +460,7 @@
       <workItem from="1485515202898" duration="199000" />
       <workItem from="1485516524210" duration="1852000" />
       <workItem from="1485758530367" duration="7061000" />
-      <workItem from="1485931409746" duration="6161000" />
-    </task>
-    <task id="LOCAL-00011" summary="2016-12-28">
-      <created>1482913996638</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1482913996638</updated>
+      <workItem from="1485931409746" duration="6515000" />
     </task>
     <task id="LOCAL-00012" summary="2016-12-28">
       <created>1482998844862</created>
@@ -806,11 +798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485935199916</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="2017-02-01">
+      <created>1485938759213</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1485938759213</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132498000" />
+    <option name="totallyTimeSpent" value="132852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -901,13 +900,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 9/CHESS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 9/MAKET_DIV.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1036">
@@ -1223,14 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassWork/JS/Lesson20/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/JS/Lesson20/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -1243,6 +1227,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
           <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassWork/JS/Lesson20/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeWork/JS/HW_16/ANKETA_oper.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>
