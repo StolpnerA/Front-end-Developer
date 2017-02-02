@@ -30,7 +30,7 @@ body {
     list-style: none;
     background-color: dimgrey;
     display: flex;
-    flex-direction: row;
+
     justify-content: space-around;
 }
 .nav>ul>a {
