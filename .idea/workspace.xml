@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed1e986-9e29-4aea-a7e9-b885c6be12ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project2/img/truck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project2/service.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project2/about.html" afterPath="$PROJECT_DIR$/Project2/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project2/css/style.css" afterPath="$PROJECT_DIR$/Project2/css/style.css" />
@@ -32,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Project2/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="45" />
+                <state relative-caret-position="459">
+                  <caret line="60" column="102" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="102" />
                   <folding>
                     <element signature="e#1201#1208#0" expanded="true" />
                   </folding>
@@ -41,13 +41,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Project2/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+                <state relative-caret-position="561">
+                  <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
                   <folding>
                     <element signature="e#1193#1200#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="service.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Project2/service.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="565">
+                  <caret line="71" column="71" lean-forward="true" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
+                  <folding>
+                    <element signature="e#1195#1202#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -60,8 +72,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Project2/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="682">
-                  <caret line="172" column="29" lean-forward="false" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+                <state relative-caret-position="495">
+                  <caret line="131" column="14" lean-forward="false" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -89,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HomeWork/HW_3/Navi.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_4/1.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson 6/Ramka.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_5 25.12/1.html" />
@@ -137,8 +148,9 @@
         <option value="$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html" />
         <option value="$PROJECT_DIR$/Project1/index.html" />
-        <option value="$PROJECT_DIR$/Project2/index.html" />
         <option value="$PROJECT_DIR$/Project2/about.html" />
+        <option value="$PROJECT_DIR$/Project2/index.html" />
+        <option value="$PROJECT_DIR$/Project2/service.html" />
         <option value="$PROJECT_DIR$/Project2/css/style.css" />
       </list>
     </option>
@@ -416,14 +428,7 @@
       <workItem from="1486375765082" duration="1116000" />
       <workItem from="1486379205752" duration="599000" />
       <workItem from="1486381126249" duration="4690000" />
-      <workItem from="1486385841864" duration="1948000" />
-    </task>
-    <task id="LOCAL-00016" summary="2016-12-30">
-      <created>1483076834313</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1483076834313</updated>
+      <workItem from="1486385841864" duration="3897000" />
     </task>
     <task id="LOCAL-00017" summary="2016-12-30">
       <created>1483082564924</created>
@@ -761,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486384943683</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Project 02-06">
+      <created>1486387796557</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1486387796557</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161020000" />
+    <option name="totallyTimeSpent" value="162969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,13 +891,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ClassWork/Lesson11/table.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/Lesson11/2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -1199,10 +1204,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Project2/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#1193#1200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Project2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="459">
+          <caret line="60" column="102" lean-forward="false" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="102" />
           <folding>
             <element signature="e#1201#1208#0" expanded="true" />
           </folding>
@@ -1211,18 +1226,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Project2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="172" column="29" lean-forward="false" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+        <state relative-caret-position="495">
+          <caret line="131" column="14" lean-forward="false" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Project2/about.html">
+    <entry file="file://$PROJECT_DIR$/Project2/service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="565">
+          <caret line="71" column="71" lean-forward="true" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
           <folding>
-            <element signature="e#1193#1200#0" expanded="true" />
+            <element signature="e#1195#1202#0" expanded="true" />
           </folding>
         </state>
       </provider>
