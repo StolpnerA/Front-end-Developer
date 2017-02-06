@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="forCountry.js"></script>
+    <style>
+        #result {
+            width: 20%;
+            background-color: #4f4f4f;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+<input type="text" id="countryInPut" placeholder="Country"><br><br>
+<input type="text" id="capitalInPut" placeholder="Capital"><br><br>
+<input type="button" value="Ввод информации о стране" onclick="add()">
+<input type="button" value="Получение информации о стране" onclick="info()">
+<input type="button" value="Перечень всех стран" onclick="show()">
+<input type="button" value="Удаление информации о стране" onclick="del()">
+<div id="result"></div>
+
+<script>
+    var resultOutPut = document.getElementById('result');
+    var countryInPut = document.getElementById('countryInPut');
+    var capitalInPut = document.getElementById('capitalInPut');
+    function add() {
+        var CountryName = countryInPut.value;
+        var CapitalName = capitalInPut.value;
+        //var CountryName = prompt('Введите название страны', 'Беларусь');
+        //var CapitalName = prompt('Введите ее столицу', 'Минск');
+        AddCountry(CountryName,CapitalName);
+        resultOutPut.innerHTML = ListCountrys();
+        //console.log( "список стран:" + ListCountrys());
+    }
+    function info() {
+        var CountryName = prompt('О какой стране вы хотите полусить инфу', 'Беларусь');
+        console.log(GetCountryInfo(CountryName));
+    }
+    function show() {
+        console.log( "список стран:" + ListCountrys());
+    }
+    function del() {
+        var coun = prompt('Что удалить?', 'Германия');
+        DeleteCountry(coun);
+        console.log( "список стран:" + ListCountrys());
+    }
+</script>
+</body>
+</html>
