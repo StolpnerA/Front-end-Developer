@@ -46,6 +46,10 @@ nav ul {
 nav li {
     display: inline-block;
 }
+.activeNav {
+    background-color: #2ba650;
+    border-bottom: solid 4px #2ba650;
+}
 nav a {
     padding: 13px 64px;
     text-decoration: none;
