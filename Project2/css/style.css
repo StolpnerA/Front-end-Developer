@@ -104,10 +104,15 @@ article .flex {
 article .col-md-5 button {
     padding: 10px;
     width: 250px;
-    border: solid 4px #35c660;
+    border: solid 4px #666;
+    border-radius: 10px;
     text-transform: uppercase;
     background-color: transparent;
-    color: #35c660;
+    color: #666;
+}
+article .col-md-5 button:hover {
+    background-color: #666;
+    color: #fff;
 }
 
 article.about .text .col-md-12{
@@ -136,6 +141,9 @@ article.service .img {
 }
 article.service .img .col-md-6 {
     padding: 30px 0;
+}
+article.service .col-md-6 img {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, .6);
 }
 /*#############################  footer   ##################################*/
 footer {
