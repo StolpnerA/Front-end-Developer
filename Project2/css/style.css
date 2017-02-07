@@ -1,6 +1,10 @@
 body {
     margin-top: 15px;
     text-transform: uppercase;
+    -moz-font-family: 'Open Sans', sans-serif;
+    -webkit-font-family: 'Open Sans', sans-serif;
+    -ms-font-family: 'Open Sans', sans-serif;
+    -o-font-family: 'Open Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     background-color: #f1f1f1;
 }
@@ -27,44 +31,78 @@ header .tagline {
 }
 
 nav {
-    letter-spacing: 1px;
-    max-width: 800px;
-    min-height: 58px;
-    max-height: 250px;
     margin: 25px auto;
+    max-width: 800px;
+    min-height: 54px;
+    max-height: 250px;
     background-color: #35c660;
 }
 nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    max-width: 800px;
+    max-height: 54px;
     list-style: none;
     font-weight: 600;
     font-size: 20px;
 }
-nav li {
-    display: inline-block;
-}
 .activeNav {
     background-color: #2ba650;
-    border-bottom: solid 4px #2ba650;
 }
-nav a {
-    padding: 13px 61px;
+nav ul li a {
+    background-color: #35c660;
+    padding: 13px 65px;
     text-decoration: none;
     color: #fff;
-    border-bottom: solid 4px #35c660;
+}
+nav li {
+    padding: 13px 0;
 }
 nav a:hover, nav a:focus, nav a:active {
-    border-bottom: solid 4px #fff;
+    background-color: #2ba650;
     color: #fff;
-    -webkit-transition: border-bottom 0.3s ease-out;
-    -moz-transition: border-bottom 0.3s ease-out;
-    -ms-transition: border-bottom 0.3s ease-out;
-    -o-transition: border-bottom 0.3s ease-out;
-    transition: border-bottom 0.3s ease-out;
+    text-decoration: none;
+    -webkit-transition: background-color, border-bottom-color 0.2s ease;
+    -moz-transition: background-color, border-bottom-color 0.2s ease;
+    -ms-transition: background-color, border-bottom-color 0.2s ease;
+    -o-transition: background-color, border-bottom-color 0.2s ease;
+    transition: background-color, border-bottom-color 0.2s ease;
+}
+nav li ul {
+
+    display: none;
+    margin-top: 13px;
+    position: absolute;
+}
+nav li ul:hover div.triangle {
+    border-bottom-color: #2ba650;
+}
+nav li ul li {
+    background-color: #35c660;
+}
+nav li ul a{
+    padding: 13px 77px;
+}
+#sub:hover ul{
+    display: block;
+}
+nav li ul:hover {
+    display: block;
+}
+.liTriangle {
+    padding: 0;
+    background-color: transparent;
+}
+.triangle {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-bottom: solid 10px #35c660;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+
 }
 /*#############################  article   ##################################*/
 .body {
@@ -180,9 +218,27 @@ footer .col-md-4 a:hover {
     }
     nav ul {
         flex-direction: column;
+        max-height: 400px;
     }
-    nav a {
+    nav li {
+        overflow: hidden;
         width: 100%;
+    }
+    nav li ul li {
+        overflow: hidden;
+        width: 100%;
+    }
+    nav li ul {
+        width: 100%;
+    }
+    nav li ul li a {
+        padding-right: 100%;
+    }
+    .activeNav {
+        border-bottom: none;
+    }
+    nav ul li a {
+        padding-right: 100%;
     }
     .row .col-md-4 {
         width: 100%;
