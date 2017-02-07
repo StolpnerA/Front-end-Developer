@@ -201,3 +201,10 @@ footer .col-md-4 a:hover {
         height: 122px;
     }
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    max-height: 244px;
+    min-height: 162px;
+    margin: 0 auto;
+
+}
