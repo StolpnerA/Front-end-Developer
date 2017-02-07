@@ -191,6 +191,20 @@ article.video .videoYT {
     margin-top: 40px;
     text-align: center;
 }
+label{
+    width: 80px;
+}
+input {
+    margin-left: 20px;
+}
+textarea {
+    margin-left: 23px;
+}
+form {
+    display: none;
+    text-align: center;
+    font-size: 15px;
+}
 /*#############################  footer   ##################################*/
 footer {
     max-width: 800px;
