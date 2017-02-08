@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="btn" onclick="changeType(this)" value="click">
+<script>
+    var types = ['text','checkbox','radio', 'button'];
+    var el = document.getElementById('btn');
+    var i = 0;
+    function changeType(el) {
+        el.setAttribute('type',types[i]);
+        el.value = types[i];
+        i = (i == types.length-1)? 0: i+=1;
+    }
+</script>
+<hr>
+<form name='pass' action='http://fe.it-academy.by/TestForm.php'>
+    Введите ФИО: <input type='password' name='firstPass'><br>
+    Введите возраст: <input type='password' name='repeatPass'><br>
+    <textarea name="result" disabled>
+    </textarea>
+</form>
+<script>
+    var el = document.forms['pass'];
+    el.onkeyup = checkPass;
+
+    function checkPass() {
+        if (el.elements['firstPass'].value == el.elements['repeatPass'].value) {
+            el.elements['firstPass'].style.backgroundColor = 'lightgreen';
+            el.elements['repeatPass'].style.backgroundColor = 'lightgreen';
+        }
+        else {
+            el.elements['firstPass'].style.backgroundColor = 'pink';
+            el.elements['repeatPass'].style.backgroundColor = 'pink';
+            //el.elements['result'].value = 'не совпадают';
+        }
+    }
+</script>
+<hr>
+<div style="position: relative; width:500px;" class="gal">
+    <img src="logo.png" alt="" width="500" height="500" class="slide">
+    <img src="man.jpg" alt="" width="500" height="500" class="slide">
+    <img src="truck.png" alt="" width="500" height="500" class="slide">
+    <img src="uncov.jpeg" alt="" width="500" height="500" class="slide">
+    <a style="position: absolute; top: 42%; left: 0; font-size: 60px; color: red; cursor: pointer;" class="btnLeft" onclick="runSlide(-1)"> < </a>
+    <a style="position: absolute; top: 42%; right: 0; font-size: 60px; color: red; cursor: pointer;" class="btnRight" onclick="runSlide(+1)"> > </a>
+</div>
+<script>
+    var slideIndex = 0;
+    showSlide(slideIndex);
+    autoSlide();
+    function runSlide(n) {
+        showSlide(slideIndex += n);
+    }
+    function showSlide(n) {
+        var x = document.getElementsByClassName('slide');
+        if (n > x.length)
+            slideIndex = 1;
+        if (n < 1)
+            slideIndex = x.length;
+        for (var i=0; i < x.length; i++)
+            x[i].style.display = 'none';
+        x[slideIndex-1].style.display = 'block';
+
+    }
+    function autoSlide() {
+        var x = document.getElementsByClassName('slide');
+        for (var i=0; i < x.length; i++)
+            x[i].style.display = 'none';
+        slideIndex++;
+
+        if (slideIndex > x.length)
+        slideIndex = 1;
+        x[slideIndex-1].style.display = 'block';
+        setTimeout(autoSlide, 2000);
+    }
+</script>
+</body>
+</html>
