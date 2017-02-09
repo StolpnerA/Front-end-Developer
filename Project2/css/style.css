@@ -11,6 +11,10 @@ body {
 }
 
 /*#############################  header   ##################################*/
+.linkIndex:hover {
+    text-decoration: none;
+}
+
 header {
     display: flex;
     align-items: center;
