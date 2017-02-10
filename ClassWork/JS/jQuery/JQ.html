@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .zebra {
+            background-color: lightgray;
+            color: white;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+        //$(document).ready(function () {
+        $(function () {
+            //alert('It\'s work!!!!');
+            //alert($('#table_data td').length + ' rows in table');
+
+            /*var fontSize = $('#table_data').css('font-size');
+             alert(fontSize);
+             $('#table_data').css('font-size', '5em');*/
+
+            $('#table_data').hover(
+                function () {
+                    $('#table_data tr:odd').addClass('zebra');
+                },
+                function () {
+                    $('#table_data tr:odd').removeClass('zebra');
+                });
+
+            $('tr').click(function () {
+                $('#show').removeAttr('disabled');
+                $(this).toggle();
+                //$(this).hide();
+                if ($('tr').is(':visible'))
+                {
+                    $('#show').val('Показать скрытые стркои!');
+                }
+                else
+                {
+                    $('#show').val('Нет скрытых строк');
+                }
+            });
+            
+            $('#show').click(function () {
+                $('tr').show();
+                $(this).val('Нет скрытых строк');
+                $(this).attr('disabled', 'yes');
+            });
+
+            $('.hide').click(function () {
+                $('#table_data').toggle();
+                if ($('#table_data').is(':visible'))
+                {
+                    $('.hide').val('Hide!');
+                    $('.hide').text('Hide!');
+                    //alert($('#table_data tr:visible').length);
+                }
+                else
+                {
+                    $('.hide').val('Show!');
+                    $('.hide').text('Show!');
+                    //alert($('#table_data tr:visible').length);
+                }
+            });
+            /********************************************************************/
+            $('h2').click(function () {
+                $(this).next('p').slideToggle(2000);
+            })
+        });
+    </script>
+</head>
+<body>
+<h2>Text</h2>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda consequuntur dolorum est eveniet fuga, impedit modi soluta. Blanditiis dolores esse incidunt ipsa labore, laudantium quidem sit tempore! Laboriosam, nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolore magni nam nostrum quaerat quos temporibus. Consequatur eos esse eum illo illum ipsa libero natus, odit officia pariatur provident sunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eius fugiat magni numquam sed sit tenetur vel. Corporis molestiae non voluptatum. Eaque eius illum non quae quaerat, quisquam sunt vitae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti itaque nam quaerat voluptates voluptatibus! Eaque hic illum nam nesciunt numquam qui quibusdam repudiandae suscipit totam vero! Debitis deserunt ut vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque autem beatae ducimus, eaque, iste necessitatibus numquam officia omnis perspiciatis similique vero! Assumenda harum nihil odio repudiandae sequi veniam vero? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut cum cumque delectus dolor excepturi fugiat, illum impedit iste laborum magnam nesciunt odio quia quidem repellendus, temporibus unde ut, vitae?
+</p>
+<h2>Text2</h2>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab earum eius inventore nulla obcaecati quod sit soluta ut vero voluptatibus? Architecto dolore eligendi esse expedita harum incidunt nemo quis, rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem beatae consequuntur doloremque ducimus expedita harum incidunt itaque nam obcaecati odio placeat quis quo repudiandae, sint velit, voluptatem. Cum, mollitia! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque culpa eligendi fugiat, hic illum laudantium, libero maxime molestiae necessitatibus non obcaecati odio saepe sed sunt suscipit temporibus voluptates voluptatibus voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet architecto, asperiores blanditiis deleniti, dolor enim eos eveniet, laboriosam laborum minima modi nemo ratione rem repellendus sequi suscipit vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cupiditate dolores eaque facilis fugiat illum laboriosam nisi non numquam, odio provident quae, reiciendis. Aperiam eligendi labore minus placeat sunt suscipit.
+</p>
+<hr>
+<input type="button" id="hide" class="hide" value="Hide!">
+<a href="#" class="hide">Hide!</a>
+<input type="button" id="show" value="Нет скрытых строк" disabled>
+<table id="table_data">
+    <caption>данные о сотрудниках</caption>
+    <tr>
+        <th>ФИО</th>
+        <th>пол</th>
+        <th>должность</th>
+        <th>дата рож.</th>
+        <th>Данные 01</th>
+        <th>Данные 02</th>
+    </tr>
+    <tr>
+        <th>Иванов Иван Иванович</th>
+        <td>М</td>
+        <td>начальник</td>
+        <td>01.01.1960</td>
+        <td>4567</td>
+        <td>3453</td>
+    </tr>
+    <tr>
+        <th>Петрова Илонна Петровна</th>
+        <td>Ж</td>
+        <td>секретарь</td>
+        <td>01.01.1989</td>
+        <td>98795</td>
+        <td>46523</td>
+    </tr>
+    <tr>
+        <th>Сидоров Илья Игоревич</th>
+        <td>М</td>
+        <td>бухгалтер</td>
+        <td>01.01.1979</td>
+        <td>743434</td>
+        <td>987979</td>
+    </tr>
+    <tr>
+        <th>Пупин Фёдор Фёдорович</th>
+        <td>М</td>
+        <td>водитель</td>
+        <td>01.01.1963</td>
+        <td>74323434</td>
+        <td>9232379</td>
+    </tr>
+    <tr>
+        <th>Крупин Сергей Иванович</th>
+        <td>М</td>
+        <td>водитель 2</td>
+        <td>01.01.1983</td>
+        <td>3234534</td>
+        <td>923123379</td>
+    </tr>
+</table>
+</body>
+</html>
