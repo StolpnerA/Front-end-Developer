@@ -13,10 +13,10 @@ $(function () {
     $('article').css('display', 'none');
     $('article').fadeIn(1200);
     $('.ddImg').css('text-align', 'left')
-    $('article img').css({
+    $('article.main img').css({
         'width': '0'
     });
-    $('article img').animate({
+    $('article.main img').animate({
         'width': '200px'
     }, 500);
 });
