@@ -244,7 +244,10 @@ input[type='submit'], input[type='button'] {
     padding: 5px 20px;
     width: 70%;
     background-color: transparent;
-
+}
+input[type='submit']:hover, input[type='button']:hover {
+    background-color: #666;
+    color: #fff;
 }
 /*#############################  footer   ##################################*/
 footer {
@@ -329,7 +332,7 @@ footer .col-md-4 a:hover {
 }
 @media all and (max-width: 610px) {
     article.about .col-md-12.img img {
-        width: 230px;
+        width: 155px;
         height: 117px;
     }
     .row .col-md-4 dd.ddImg {
@@ -345,5 +348,7 @@ footer .col-md-4 a:hover {
         font-size: 14px;
         text-align: center;
     }
-
+    article.service img {
+        width: 240px;
+    }
 }
