@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ed1e986-9e29-4aea-a7e9-b885c6be12ed" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/service.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/video.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project1/CSS/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/img/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/img/man.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/img/truck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/img/uncov.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/service.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2/video.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/img/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/img/man.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/img/truck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/img/uncov.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Project/js/jQuery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/CSS/Style.css" afterPath="$PROJECT_DIR$/Project/CSS/Style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/index.html" afterPath="$PROJECT_DIR$/Project/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,14 +29,14 @@
     <favorites_list name="Front-end-Developer" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5550239">
+    <splitter split-orientation="horizontal" split-proportion="0.55321705">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="JQ.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ClassWork/JS/jQuery/JQ.html">
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Project/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+                <state relative-caret-position="357">
+                  <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -59,13 +45,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="JQ.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ClassWork/JS/jQuery/JQ.html">
+        <leaf>
+          <file leaf-file-name="jQuery.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Project/js/jQuery.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-                  <folding />
+                <state relative-caret-position="153">
+                  <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+                  <folding>
+                    <element signature="e#0#42#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -79,6 +67,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -97,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ClassWork/Lesson 7/TESTTABLE.html" />
-        <option value="$PROJECT_DIR$/ClassWork/Lesson 7/Window.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson 7/TESTTABLE3.html" />
         <option value="$PROJECT_DIR$/ClassWork/Lesson 7/TESTTABLE2.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_6/Calendar2.html" />
@@ -133,7 +120,6 @@
         <option value="$PROJECT_DIR$/ClassWork/Lesson17/animation_blank.html" />
         <option value="$PROJECT_DIR$/Project/Header.html" />
         <option value="$PROJECT_DIR$/Project/CSS/Style.css" />
-        <option value="$PROJECT_DIR$/Project/index.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_15/MAKET_DIV.html" />
         <option value="$PROJECT_DIR$/HomeWork/HW_15/TEST_SVG.html" />
         <option value="$PROJECT_DIR$/Project1/index.html" />
@@ -148,6 +134,9 @@
         <option value="$PROJECT_DIR$/Project2/service.html" />
         <option value="$PROJECT_DIR$/Project2/css/style.css" />
         <option value="$PROJECT_DIR$/Project2/index.html" />
+        <option value="$PROJECT_DIR$/Project/js/js.js" />
+        <option value="$PROJECT_DIR$/Project/js/jQuery.js" />
+        <option value="$PROJECT_DIR$/Project/index.html" />
       </list>
     </option>
   </component>
@@ -464,14 +453,7 @@
       <workItem from="1486811220693" duration="10354000" />
       <workItem from="1486840442994" duration="857000" />
       <workItem from="1486846179419" duration="651000" />
-      <workItem from="1486900014874" duration="161000" />
-    </task>
-    <task id="LOCAL-00030" summary="2017-01-04">
-      <created>1483515679194</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1483515679194</updated>
+      <workItem from="1486900014874" duration="642000" />
     </task>
     <task id="LOCAL-00031" summary="2017-01-04">
       <created>1483518973421</created>
@@ -809,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486667567926</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Project 02-09">
+      <created>1486900215938</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1486900215938</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213936000" />
+    <option name="totallyTimeSpent" value="214417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,9 +815,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119072706" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12381454" sideWeight="0.4959514" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.49872774" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.50127226" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.49745548" order="7" side_tool="false" content_ui="tabs" />
@@ -912,7 +901,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Project 02-09" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -928,13 +919,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 8/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/Lesson 8/SG.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1076,13 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Project/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="140" lean-forward="false" selection-start-line="22" selection-start-column="140" selection-end-line="22" selection-end-column="140" />
         </state>
       </provider>
     </entry>
@@ -1273,9 +1250,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ClassWork/JS/jQuery/JQ.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="544">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project/js/jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
